@@ -16,7 +16,7 @@ A Workflow Execution is a Reentrant Process; that is, a resumable, recoverabl
 A Workflow Execution has exclusive access to its local state, executes concurrently to all other Workflow Executions, and can communicate with other Workflow Executions using Signals.
 
 A Workflow Execution is either Running or Closed.
-When a Workflow Execution is Running, it is either actively progressing or suspended, awaiting on something.
+When a Workflow Execution is Running, it is either actively progressing, suspended, or awaiting on something.
 
 ![Workflow Execution Running status](/diagrams/workflow-execution-running-status.svg)
 
